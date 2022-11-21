@@ -25,4 +25,4 @@ replay_pid*
 
 
 #ignore these directories
-images/
+images/*
