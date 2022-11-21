@@ -71,7 +71,8 @@ public class Strange_attractor
 		double x_lowest = 0, x_highest = 0, y_lowest = 0, y_highest = 0;
 		int maxValue = gamma;
 		int[][] count = new int[imgSize][imgSize]; //counting the number of hits on each pixel by data
-		String dirString = "D:\\eclipse\\strange_attractor\\images\\strange_attractor.png";
+		String dirString = "path";
+		//"D:\\eclipse\\strange_attractor\\images\\strange_attractor.png";
 		File outputFile = new File(dirString);
 		
 		for(int i = 0; i < data.length; i++)

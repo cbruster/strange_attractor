@@ -212,7 +212,8 @@ public class image_set
 	//for placing the series of images to make a gif out of in the target directory
 	static void putImage_BI(BufferedImage bi, int imgNum) throws IOException
 	{
-		String dirString = "D:\\eclipse\\strange_attractor\\images\\strange_attractor_" + imgNum + ".png";
+		String dirString = "path";
+		//"D:\\eclipse\\strange_attractor\\images\\strange_attractor.png";
 		File outputFile = new File(dirString);
 		
 		//write image to file
